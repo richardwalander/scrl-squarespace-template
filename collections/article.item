@@ -1,0 +1,24 @@
+<div class="scrl">
+  <div class="hero" style="background-image: url({item.assetUrl});">
+    <div class="overlay"></div>
+    <div class="title-section">
+      <div class="bread-crumbs">
+        <a href="{collection.fullUrl}">Learn</a> / <a href="{item.fullUrl}">{item.title}</a>
+      </div>
+      <h1>{item.title}</h1>
+      <div class="published-at">{item.addedOn|date %A, %B %d}</div>
+      <div class="published-by">Written by: {item.author.displayName}</div>
+    </div>
+  </div>
+  <div class="article-content">
+    {item.body}
+  </div>
+  <div class="author">
+    <div class="avatar" style="background-image: url({item.author.avatarUrl});"></div>
+    <div class="profile-info">
+      <div class="name">{item.author.displayName}</div>
+      <div class="bio">{item.author.bio}</div>
+    </div>
+  </div>
+  <div class="related-articles"></div>
+</div>
