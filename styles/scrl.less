@@ -103,12 +103,20 @@
 
   .hero {
     height: 600px;
-    position: absolute;
     width: 100%;
-    top: 104px;
-    left: 0;
     background-size: cover;
     background-position: center;
+    position: absolute;
+    top: 114px;
+    left: 0;
+
+    @media (max-width: 640px) {
+      top: 0;
+    }
+
+    @media (max-width: @primitive_layout_breakpoint_s) {
+      height: 500px;
+    }
 
     .overlay {
       position: absolute;
@@ -129,10 +137,22 @@
       top: 50%;
       transform: translateY(-50%);
 
+      @media (max-width: @primitive_layout_breakpoint_m) {
+        padding: var(--semantic-spacing-space-l);
+      }
+
       h1 {
         .heading-1();
         margin: 0;
         margin-bottom: var(--semantic-spacing-space-m);
+
+        @media (max-width: @primitive_layout_breakpoint_m) {
+          .heading-3();
+        }
+
+        @media (max-width: @primitive_layout_breakpoint_s) {
+          .heading-4();
+        }
       }
 
       .bread-crumbs {
@@ -152,11 +172,15 @@
   }
 
   .article-content {
-    margin-top: 520px;
+    margin-top: 530px;
     max-width: var(--primitive-layout-breakpoint-m);
     margin-left: auto;
     margin-right: auto;
     padding-top: var(--semantic-spacing-space-5xl);
+
+    @media (max-width: @primitive_layout_breakpoint_s) {
+      margin-top: 420px;
+    }
 
     h1 {
       .heading-3();
@@ -203,6 +227,10 @@
     gap: var(--semantic-spacing-space-3xl);
     border-top: solid 1px var(--semantic-color-dark-border-tertiary);
 
+    @media (max-width: @primitive_layout_breakpoint_s) {
+      gap: var(--semantic-spacing-space-xl);
+    }
+
     .avatar {
       width: 80px;
       height: 80px;
@@ -210,6 +238,15 @@
       background-color: var(--semantic-color-dark-background-tertiary);
       background-size: cover;
       background-position: center;
+
+      @media (max-width: @primitive_layout_breakpoint_s) {
+        height: 48px;
+        width: 48px;
+      }
+    }
+
+    .profile-info {
+      flex: 1;
     }
 
     .name {
