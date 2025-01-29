@@ -847,6 +847,23 @@
     max-width: 100%;
   }
 }
+.scrl .pagination {
+  display: flex;
+  gap: var(--semantic-spacing-space-l);
+  padding: var(--semantic-spacing-space-3xl) 0;
+  justify-content: center;
+  align-items: center;
+}
+.scrl .pagination .btn {
+  padding: var(--semantic-spacing-space-s) var(--semantic-spacing-space-l);
+  border-radius: var(--primitive-border-radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  gap: var(--semantic-spacing-space-s);
+  background-color: var(--semantic-color-dark-background-tertiary);
+}
 .scrl .hero {
   height: 600px;
   width: 100%;
