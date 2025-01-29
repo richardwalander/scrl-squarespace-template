@@ -1,5 +1,4 @@
 <a href="{fullUrl}" class="article">
-  <!-- <div class="img" style="background-image: url(https://placehold.co/300);"></div> -->
   <div class="img" style="background-image: url({assetUrl});"></div>
   <div class="info">
     <div class="category">{categories.0}</div>
