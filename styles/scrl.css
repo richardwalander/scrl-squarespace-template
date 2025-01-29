@@ -708,7 +708,31 @@
 .scrl .category-list {
   display: flex;
   gap: var(--semantic-spacing-space-l);
-  padding: var(--semantic-spacing-space-l);
+  padding: var(--semantic-spacing-space-3xl) 0;
+  overflow-x: scroll;
+}
+.scrl .category-list::-webkit-scrollbar {
+  display: none;
+  /* Hides scrollbar in WebKit browsers */
+}
+.scrl .category-list .chip {
+  padding: var(--semantic-spacing-space-s) var(--semantic-spacing-space-l);
+  border: solid var(--primitive-border-width-m) var(--semantic-color-dark-border-primary);
+  border-radius: var(--primitive-border-radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  gap: var(--semantic-spacing-space-s);
+}
+.scrl .category-list .chip svg {
+  display: none;
+}
+.scrl .category-list .chip.selected {
+  background-color: var(--semantic-color-dark-background-tertiary);
+}
+.scrl .category-list .chip.selected svg {
+  display: block;
 }
 .scrl .articles {
   display: flex;

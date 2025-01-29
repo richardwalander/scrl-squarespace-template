@@ -7,9 +7,34 @@
   .category-list {
     display: flex;
     gap: var(--semantic-spacing-space-l);
-    padding: var(--semantic-spacing-space-l);
+    padding: var(--semantic-spacing-space-3xl) 0;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none; /* Hides scrollbar in WebKit browsers */
+    }
 
     .chip {
+      padding: var(--semantic-spacing-space-s) var(--semantic-spacing-space-l);
+      border: solid var(--primitive-border-width-m) var(--semantic-color-dark-border-primary);
+      border-radius: var(--primitive-border-radius-pill);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+      gap: var(--semantic-spacing-space-s);
+
+      svg {
+        display: none;
+      }
+
+      &.selected {
+        background-color: var(--semantic-color-dark-background-tertiary);
+
+        svg {
+          display: block;
+        }
+      }
     }
   }
 
