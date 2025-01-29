@@ -1,0 +1,37 @@
+<svg class="article empty" viewBox="0 0 335 382" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M0 2C0 0.895429 0.895431 0 2 0H333C334.105 0 335 0.895431 335 2V298C335 299.105 334.105 300 333 300H1.99999C0.895421 300 0 299.105 0 298V2ZM0 326C0 320.477 4.47715 316 10 316H170C175.523 316 180 320.477 180 326C180 331.523 175.523 336 170 336H10C4.47716 336 0 331.523 0 326ZM15 352C6.71573 352 0 358.716 0 367C0 375.284 6.71574 382 15 382H320C328.284 382 335 375.284 335 367C335 358.716 328.284 352 320 352H15Z"
+    fill="url(#paint0_linear_8574_486216)" />
+  <defs>
+    <linearGradient id="paint0_linear_8574_486216" x1="167.5" y1="0" x2="167.5" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.05" />
+      <stop offset="1" stop-color="white" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>
+<svg class="article empty" viewBox="0 0 335 382" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M0 2C0 0.895429 0.895431 0 2 0H333C334.105 0 335 0.895431 335 2V298C335 299.105 334.105 300 333 300H1.99999C0.895421 300 0 299.105 0 298V2ZM0 326C0 320.477 4.47715 316 10 316H170C175.523 316 180 320.477 180 326C180 331.523 175.523 336 170 336H10C4.47716 336 0 331.523 0 326ZM15 352C6.71573 352 0 358.716 0 367C0 375.284 6.71574 382 15 382H320C328.284 382 335 375.284 335 367C335 358.716 328.284 352 320 352H15Z"
+    fill="url(#paint0_linear_8574_486216)" />
+  <defs>
+    <linearGradient id="paint0_linear_8574_486216" x1="167.5" y1="0" x2="167.5" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.05" />
+      <stop offset="1" stop-color="white" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>
+<svg class="article empty" viewBox="0 0 335 382" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M0 2C0 0.895429 0.895431 0 2 0H333C334.105 0 335 0.895431 335 2V298C335 299.105 334.105 300 333 300H1.99999C0.895421 300 0 299.105 0 298V2ZM0 326C0 320.477 4.47715 316 10 316H170C175.523 316 180 320.477 180 326C180 331.523 175.523 336 170 336H10C4.47716 336 0 331.523 0 326ZM15 352C6.71573 352 0 358.716 0 367C0 375.284 6.71574 382 15 382H320C328.284 382 335 375.284 335 367C335 358.716 328.284 352 320 352H15Z"
+    fill="url(#paint0_linear_8574_486216)" />
+  <defs>
+    <linearGradient id="paint0_linear_8574_486216" x1="167.5" y1="0" x2="167.5" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.05" />
+      <stop offset="1" stop-color="white" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>
+<div class="empty-content">
+  <div class="title">👹 Oops! Did a Photo Gremlin Steal the Content?</div>
+  <div class="sub-title">We can't seem to find any articles at the moment. Maybe they're hiding? Try again later!</div>
+</div>

@@ -41,6 +41,7 @@
 
   .articles {
     // border: solid 1px red;
+    position: relative;
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap */
     gap: 16px;
@@ -52,6 +53,13 @@
       transition: transfrom 1s ease;
       flex: 0 1 ~'calc(33.333% - 16px)'; /* 1/3 width with spacing adjustment */
       max-width: ~'calc(33.333% - 16px)';
+
+      &.empty {
+        width: 100%; /* Make it fill the container */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; /* Prevent overflow */
+        display: none;
+      }
 
       &:only-child {
         flex: 0 1 ~'calc(33.333% - 16px)'; /* Force single item to stay 1/3 width */
@@ -106,6 +114,51 @@
             vertical-align: middle;
           }
         }
+      }
+    }
+
+    .empty-content {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      text-align: center;
+      padding: 0 var(--semantic-spacing-space-3xl);
+
+      .title {
+        // .text-bold-2xl();
+        .heading-4();
+        margin-bottom: var(--semantic-spacing-space-xl);
+        @media (max-width: @primitive_layout_breakpoint_l) {
+          .text-bold-2xl();
+        }
+      }
+
+      .sub-title {
+        .text-regular-xl();
+        color: var(--semantic-color-dark-content-tertiary);
+        @media (max-width: @primitive_layout_breakpoint_l) {
+          .text-regular-l();
+        }
+      }
+    }
+
+    @media (min-width: @primitive_layout_breakpoint_s) {
+      .article.empty:nth-child(1) {
+        display: block;
+      }
+    }
+
+    @media (min-width: @primitive_layout_breakpoint_m) {
+      .article.empty:nth-child(1),
+      .article.empty:nth-child(2) {
+        display: block;
+      }
+    }
+
+    @media (min-width: @primitive_layout_breakpoint_l) {
+      .article.empty {
+        display: block;
       }
     }
 
