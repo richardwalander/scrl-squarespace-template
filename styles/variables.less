@@ -999,3 +999,56 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+// Responsive Hide Mixin (Hides element at specified breakpoint)
+.hide-at(@breakpoint) {
+  @media (max-width: @breakpoint) {
+    display: none !important;
+  }
+}
+
+// Responsive Show Mixin (Shows only at a specific range)
+.show-between(@min, @max) {
+  display: none; /* Hide by default */
+  @media (min-width: @min) and (max-width: @max) {
+    display: block !important;
+  }
+}
+
+// Only Show Above Certain Breakpoint
+.show-at(@breakpoint) {
+  display: none;
+  @media (min-width: @breakpoint) {
+    display: block !important;
+  }
+}
+
+// Only Show Below Certain Breakpoint
+.show-below(@breakpoint) {
+  display: none;
+  @media (max-width: @breakpoint) {
+    display: block !important;
+  }
+}
+
+// Hide Helpers
+.hide-s() {
+  .hide-at(@primitive_layout_breakpoint_s);
+}
+.hide-m() {
+  .hide-at(@primitive_layout_breakpoint_m);
+}
+.hide-l() {
+  .hide-at(@primitive_layout_breakpoint_l);
+}
+
+// Show Helpers
+.show-s() {
+  .show-at(@primitive_layout_breakpoint_s);
+}
+.show-m() {
+  .show-at(@primitive_layout_breakpoint_m);
+}
+.show-l() {
+  .show-at(@primitive_layout_breakpoint_l);
+}
