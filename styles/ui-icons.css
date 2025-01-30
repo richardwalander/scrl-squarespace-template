@@ -1,0 +1,222 @@
+.Icon--bag {
+  width: 34px;
+  height: 38px;
+}
+.Icon--bag-alt {
+  width: 28px;
+  height: 28px;
+}
+.Icon--caretLarge--left,
+.Icon--caretLarge--right {
+  width: 48px;
+  height: 48px;
+}
+.Icon--caretLarge--down {
+  width: 48px;
+  height: 48px;
+}
+.Icon--caretSmall--left,
+.Icon--caretSmall--right {
+  width: 16px;
+  height: 16px;
+}
+.Icon--cart {
+  width: 31px;
+  height: 26px;
+}
+.Icon--user-accounts {
+  width: 28px;
+  height: 28px;
+}
+.Icon--cart-alt {
+  width: 28px;
+  height: 28px;
+}
+.Icon--close {
+  width: 24px;
+  height: 24px;
+}
+.Icon--plus {
+  width: 24px;
+  height: 24px;
+}
+.Icon--squares-horizontal {
+  width: 24px;
+  height: 24px;
+}
+.Icon--squares-vertical {
+  width: 24px;
+  height: 24px;
+}
+.Icon--dots-horizontal {
+  width: 24px;
+  height: 24px;
+}
+.Icon--dots-vertical {
+  width: 24px;
+  height: 24px;
+}
+.Icon--hamburger {
+  width: 24px;
+  height: 48px;
+}
+.Icon--hotdog {
+  width: 24px;
+  height: 24px;
+}
+.Icon--search {
+  width: 20px;
+  height: 20px;
+}
+.Icon--search--small {
+  width: 15px;
+  height: 15px;
+}
+.tweak-icon-weight-hairline .Icon--caretLarge--left,
+.tweak-icon-weight-hairline .Icon--caretLarge--right,
+.tweak-icon-weight-hairline .Icon--caretSmall--left,
+.tweak-icon-weight-hairline .Icon--caretSmall--right,
+.tweak-icon-weight-hairline .Icon--close,
+.tweak-icon-weight-hairline .Icon--search,
+.tweak-icon-weight-hairline .Icon--search--small {
+  stroke-width: 0;
+}
+.tweak-icon-weight-light .Icon--caretLarge--left,
+.tweak-icon-weight-light .Icon--caretLarge--right,
+.tweak-icon-weight-light .Icon--caretSmall--left,
+.tweak-icon-weight-light .Icon--caretSmall--right,
+.tweak-icon-weight-light .Icon--close,
+.tweak-icon-weight-light .Icon--search,
+.tweak-icon-weight-light .Icon--search--small {
+  stroke-width: 0;
+}
+.tweak-icon-weight-medium .Icon--caretLarge--left,
+.tweak-icon-weight-medium .Icon--caretLarge--right,
+.tweak-icon-weight-medium .Icon--caretSmall--left,
+.tweak-icon-weight-medium .Icon--caretSmall--right,
+.tweak-icon-weight-medium .Icon--close,
+.tweak-icon-weight-medium .Icon--search,
+.tweak-icon-weight-medium .Icon--search--small {
+  stroke-width: 0;
+}
+.tweak-icon-weight-heavy .Icon--caretLarge--left,
+.tweak-icon-weight-heavy .Icon--caretLarge--right,
+.tweak-icon-weight-heavy .Icon--caretSmall--left,
+.tweak-icon-weight-heavy .Icon--caretSmall--right,
+.tweak-icon-weight-heavy .Icon--close,
+.tweak-icon-weight-heavy .Icon--search,
+.tweak-icon-weight-heavy .Icon--search--small {
+  stroke-width: 0;
+}
+.tweak-icon-weight-hairline .Icon--bag,
+.tweak-icon-weight-hairline .Icon--bag-alt,
+.tweak-icon-weight-hairline .Icon--cart,
+.tweak-icon-weight-hairline .Icon--cart-alt,
+.tweak-icon-weight-hairline .Icon--dots-horizontal,
+.tweak-icon-weight-hairline .Icon--dots-vertical,
+.tweak-icon-weight-hairline .Icon--hamburger,
+.tweak-icon-weight-hairline .Icon--hotdog,
+.tweak-icon-weight-hairline .Icon--plus,
+.tweak-icon-weight-hairline .Icon--squares-horizontal,
+.tweak-icon-weight-hairline .Icon--squares-vertical,
+.tweak-icon-weight-hairline .Icon--user-accounts {
+  stroke-width: 0;
+}
+.tweak-icon-weight-hairline .Icon--bag .use--even,
+.tweak-icon-weight-hairline .Icon--bag-alt .use--even,
+.tweak-icon-weight-hairline .Icon--cart .use--even,
+.tweak-icon-weight-hairline .Icon--cart-alt .use--even,
+.tweak-icon-weight-hairline .Icon--dots-horizontal .use--even,
+.tweak-icon-weight-hairline .Icon--dots-vertical .use--even,
+.tweak-icon-weight-hairline .Icon--hamburger .use--even,
+.tweak-icon-weight-hairline .Icon--hotdog .use--even,
+.tweak-icon-weight-hairline .Icon--plus .use--even,
+.tweak-icon-weight-hairline .Icon--squares-horizontal .use--even,
+.tweak-icon-weight-hairline .Icon--squares-vertical .use--even,
+.tweak-icon-weight-hairline .Icon--user-accounts .use--even {
+  display: none;
+}
+.tweak-icon-weight-light .Icon--bag,
+.tweak-icon-weight-light .Icon--bag-alt,
+.tweak-icon-weight-light .Icon--cart,
+.tweak-icon-weight-light .Icon--cart-alt,
+.tweak-icon-weight-light .Icon--dots-horizontal,
+.tweak-icon-weight-light .Icon--dots-vertical,
+.tweak-icon-weight-light .Icon--hamburger,
+.tweak-icon-weight-light .Icon--hotdog,
+.tweak-icon-weight-light .Icon--plus,
+.tweak-icon-weight-light .Icon--squares-horizontal,
+.tweak-icon-weight-light .Icon--squares-vertical,
+.tweak-icon-weight-light .Icon--user-accounts {
+  stroke-width: 0;
+}
+.tweak-icon-weight-light .Icon--bag .use--odd,
+.tweak-icon-weight-light .Icon--bag-alt .use--odd,
+.tweak-icon-weight-light .Icon--cart .use--odd,
+.tweak-icon-weight-light .Icon--cart-alt .use--odd,
+.tweak-icon-weight-light .Icon--dots-horizontal .use--odd,
+.tweak-icon-weight-light .Icon--dots-vertical .use--odd,
+.tweak-icon-weight-light .Icon--hamburger .use--odd,
+.tweak-icon-weight-light .Icon--hotdog .use--odd,
+.tweak-icon-weight-light .Icon--plus .use--odd,
+.tweak-icon-weight-light .Icon--squares-horizontal .use--odd,
+.tweak-icon-weight-light .Icon--squares-vertical .use--odd,
+.tweak-icon-weight-light .Icon--user-accounts .use--odd {
+  display: none;
+}
+.tweak-icon-weight-medium .Icon--bag,
+.tweak-icon-weight-medium .Icon--bag-alt,
+.tweak-icon-weight-medium .Icon--cart,
+.tweak-icon-weight-medium .Icon--cart-alt,
+.tweak-icon-weight-medium .Icon--dots-horizontal,
+.tweak-icon-weight-medium .Icon--dots-vertical,
+.tweak-icon-weight-medium .Icon--hamburger,
+.tweak-icon-weight-medium .Icon--hotdog,
+.tweak-icon-weight-medium .Icon--plus,
+.tweak-icon-weight-medium .Icon--squares-horizontal,
+.tweak-icon-weight-medium .Icon--squares-vertical,
+.tweak-icon-weight-medium .Icon--user-accounts {
+  stroke-width: 0;
+}
+.tweak-icon-weight-medium .Icon--bag .use--even,
+.tweak-icon-weight-medium .Icon--bag-alt .use--even,
+.tweak-icon-weight-medium .Icon--cart .use--even,
+.tweak-icon-weight-medium .Icon--cart-alt .use--even,
+.tweak-icon-weight-medium .Icon--dots-horizontal .use--even,
+.tweak-icon-weight-medium .Icon--dots-vertical .use--even,
+.tweak-icon-weight-medium .Icon--hamburger .use--even,
+.tweak-icon-weight-medium .Icon--hotdog .use--even,
+.tweak-icon-weight-medium .Icon--plus .use--even,
+.tweak-icon-weight-medium .Icon--squares-horizontal .use--even,
+.tweak-icon-weight-medium .Icon--squares-vertical .use--even,
+.tweak-icon-weight-medium .Icon--user-accounts .use--even {
+  display: none;
+}
+.tweak-icon-weight-heavy .Icon--bag,
+.tweak-icon-weight-heavy .Icon--bag-alt,
+.tweak-icon-weight-heavy .Icon--cart,
+.tweak-icon-weight-heavy .Icon--cart-alt,
+.tweak-icon-weight-heavy .Icon--dots-horizontal,
+.tweak-icon-weight-heavy .Icon--dots-vertical,
+.tweak-icon-weight-heavy .Icon--hamburger,
+.tweak-icon-weight-heavy .Icon--hotdog,
+.tweak-icon-weight-heavy .Icon--plus,
+.tweak-icon-weight-heavy .Icon--squares-horizontal,
+.tweak-icon-weight-heavy .Icon--squares-vertical,
+.tweak-icon-weight-heavy .Icon--user-accounts {
+  stroke-width: 0;
+}
+.tweak-icon-weight-heavy .Icon--bag .use--odd,
+.tweak-icon-weight-heavy .Icon--bag-alt .use--odd,
+.tweak-icon-weight-heavy .Icon--cart .use--odd,
+.tweak-icon-weight-heavy .Icon--cart-alt .use--odd,
+.tweak-icon-weight-heavy .Icon--dots-horizontal .use--odd,
+.tweak-icon-weight-heavy .Icon--dots-vertical .use--odd,
+.tweak-icon-weight-heavy .Icon--hamburger .use--odd,
+.tweak-icon-weight-heavy .Icon--hotdog .use--odd,
+.tweak-icon-weight-heavy .Icon--plus .use--odd,
+.tweak-icon-weight-heavy .Icon--squares-horizontal .use--odd,
+.tweak-icon-weight-heavy .Icon--squares-vertical .use--odd,
+.tweak-icon-weight-heavy .Icon--user-accounts .use--odd {
+  display: none;
+}

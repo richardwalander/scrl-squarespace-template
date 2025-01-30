@@ -6,19 +6,19 @@
       <section id="{urlId}" class="Index-gallery" data-controller="IndexGallery" data-collection-id="{id}">
         <div class="Index-gallery-wrapper">
           <button class="Index-gallery-control Index-gallery-control--left">
-            <svg class="Icon Icon--caretLarge--left" viewBox="0 0 23 48">
-              <use xlink:href="/assets/ui-icons.svg#caret-left-icon--large"></use>
+            <svg class="Icon Icon--caretLarge--left" viewBox="0 0 48 48">
+              <path d="M29.0607 10.9393C29.6464 11.5251 29.6464 12.4749 29.0607 13.0607L18.1213 24L29.0607 34.9393C29.6464 35.5251 29.6464 36.4749 29.0607 37.0607C28.4749 37.6464 27.5251 37.6464 26.9393 37.0607L14.9393 25.0607C14.3536 24.4749 14.3536 23.5251 14.9393 22.9393L26.9393 10.9393C27.5251 10.3536 28.4749 10.3536 29.0607 10.9393Z" fill="white"/>
             </svg>
-            <svg class="Icon Icon--caretSmall--left" viewBox="0 0 9 16">
-              <use xlink:href="/assets/ui-icons.svg#caret-left-icon--small"></use>
+            <svg class="Icon Icon--caretSmall--left" viewBox="0 0 16 16">
+              <path d="M9.68705 3.64645C9.88231 3.84171 9.88231 4.15829 9.68705 4.35355L6.0406 8L9.68705 11.6464C9.88231 11.8417 9.88231 12.1583 9.68705 12.3536C9.49179 12.5488 9.1752 12.5488 8.97994 12.3536L4.97994 8.35355C4.78468 8.15829 4.78468 7.84171 4.97994 7.64645L8.97994 3.64645C9.1752 3.45118 9.49179 3.45118 9.68705 3.64645Z" fill="white"/>
             </svg>
           </button>
           <button class="Index-gallery-control Index-gallery-control--right">
-            <svg class="Icon Icon--caretLarge--right" viewBox="0 0 23 48">
-              <use xlink:href="/assets/ui-icons.svg#caret-right-icon--large"></use>
+            <svg class="Icon Icon--caretLarge--right" viewBox="0 0 48 48">
+              <path d="M18.9393 10.9393C18.3536 11.5251 18.3536 12.4749 18.9393 13.0607L29.8787 24L18.9393 34.9393C18.3536 35.5251 18.3536 36.4749 18.9393 37.0607C19.5251 37.6464 20.4749 37.6464 21.0607 37.0607L33.0607 25.0607C33.6464 24.4749 33.6464 23.5251 33.0607 22.9393L21.0607 10.9393C20.4749 10.3536 19.5251 10.3536 18.9393 10.9393Z" fill="white"/>
             </svg>
-            <svg class="Icon Icon--caretSmall--left" viewBox="0 0 9 16">
-              <use xlink:href="/assets/ui-icons.svg#caret-right-icon--small"></use>
+            <svg class="Icon Icon--caretSmall--right" viewBox="0 0 16 16">
+              <path d="M6.31295 3.64645C6.11769 3.84171 6.11769 4.15829 6.31295 4.35355L9.9594 8L6.31295 11.6464C6.11769 11.8417 6.11769 12.1583 6.31295 12.3536C6.50821 12.5488 6.8248 12.5488 7.02006 12.3536L11.0201 8.35355C11.2153 8.15829 11.2153 7.84171 11.0201 7.64645L7.02006 3.64645C6.8248 3.45118 6.50821 3.45118 6.31295 3.64645Z" fill="white"/>
             </svg>
           </button>
           {.section items}
@@ -79,8 +79,8 @@
         {.equal? @index 1}
           <div class="Index-page-scroll-indicator hidden" data-controller="ScrollIndicator">
             <div class="Index-page-scroll-indicator-text">{localizedStrings.scroll}</div>
-            <svg class="Index-page-scroll-indicator-arrow Icon Icon--caretLarge--down" viewBox="0 0 48 23">
-              <use xlink:href="/assets/ui-icons.svg#caret-down-large-icon"></use>
+            <svg class="Index-page-scroll-indicator-arrow Icon Icon--caretLarge--down" viewBox="0 0 48 48">
+              <path d="M10.9393 18.9393C11.5251 18.3536 12.4749 18.3536 13.0607 18.9393L24 29.8787L34.9393 18.9393C35.5251 18.3536 36.4749 18.3536 37.0607 18.9393C37.6464 19.5251 37.6464 20.4749 37.0607 21.0607L25.0607 33.0607C24.4749 33.6464 23.5251 33.6464 22.9393 33.0607L10.9393 21.0607C10.3536 20.4749 10.3536 19.5251 10.9393 18.9393Z" fill="white"/>
             </svg>
             <div class="Index-page-scroll-indicator-line"></div>
           </div>

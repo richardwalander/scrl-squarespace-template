@@ -1,67 +1,47 @@
-@icon--caretLarge-width: 23px;
+@icon--caretLarge-width: 48px;
 @icon--caretLarge-height: 48px;
-@icon--caretSmall-width: 9px;
+@icon--caretSmall-width: 16px;
 @icon--caretSmall-height: 16px;
-@icon--close-width: 16px;
+@icon--close-width: 24px;
 @icon--hamburger-width: 24px;
 @icon--search-width: 20px;
 @icon--search--small-width: 15px;
 
-
-
-
 .Icon {
-
-
-
   // -----------------------------------------
 
   //  Sizes
 
   &--bag {
-
     width: 34px;
     height: 38px;
-
   }
 
   &--bag-alt {
-
     width: 28px;
     height: 28px;
-
   }
-
 
   &--caretLarge--left,
   &--caretLarge--right {
-
     width: @icon--caretLarge-width;
     height: 48px;
-
   }
-
 
   &--caretLarge--down {
     width: 48px;
     height: @icon--caretLarge-width;
   }
 
-
   &--caretSmall--left,
   &--caretSmall--right {
-
     width: @icon--caretSmall-width;
     height: @icon--caretSmall-height;
-
   }
 
-
   &--cart {
-
     width: 31px;
     height: 26px;
-
   }
 
   &--user-accounts {
@@ -69,95 +49,60 @@
     height: 28px;
   }
 
-
   &--cart-alt {
-
     width: 28px;
     height: 28px;
-
   }
-
 
   &--close {
-
     width: @icon--close-width;
-    height: 16px;
-
+    height: 24px;
   }
-
 
   &--plus {
-
-    width: 20px;
-    height: 20px;
-
+    width: 24px;
+    height: 24px;
   }
-
 
   &--squares-horizontal {
-
-    width: 25px;
-    height: 7px;
-
+    width: 24px;
+    height: 24px;
   }
-
 
   &--squares-vertical {
-
-    width: 7px;
-    height: 25px;
-
+    width: 24px;
+    height: 24px;
   }
-
 
   &--dots-horizontal {
-
-    width: 25px;
-    height: 7px;
-
+    width: 24px;
+    height: 24px;
   }
-
 
   &--dots-vertical {
-
-    width: 7px;
-    height: 25px;
-
+    width: 24px;
+    height: 24px;
   }
-
 
   &--hamburger {
-
     width: @icon--hamburger-width;
-    height: 18px;
-
+    height: 48px;
   }
-
 
   &--hotdog {
-
     width: 24px;
-    height: 14px;
-
+    height: 24px;
   }
-
 
   &--search {
-
     width: @icon--search-width;
     height: @icon--search-width;
-
   }
-
 
   &--search--small {
-
     width: @icon--search--small-width;
     height: @icon--search--small-width;
-
   }
-
-
 
   // -----------------------------------------
 
@@ -170,14 +115,19 @@
   &--close,
   &--search,
   &--search--small {
-
-    .tweak-icon-weight-hairline & { stroke-width: 1; }
-    .tweak-icon-weight-light & { stroke-width: 2; }
-    .tweak-icon-weight-medium & { stroke-width: 3; }
-    .tweak-icon-weight-heavy & { stroke-width: 4; }
-
+    .tweak-icon-weight-hairline & {
+      stroke-width: 0;
+    }
+    .tweak-icon-weight-light & {
+      stroke-width: 0;
+    }
+    .tweak-icon-weight-medium & {
+      stroke-width: 0;
+    }
+    .tweak-icon-weight-heavy & {
+      stroke-width: 0;
+    }
   }
-
 
   // Due to pixel rounding, we have 2 different
   // SVGs for even and odd stroke widths for
@@ -196,28 +146,32 @@
   &--squares-horizontal,
   &--squares-vertical,
   &--user-accounts {
-
     .tweak-icon-weight-hairline & {
-      stroke-width: 1;
-      .use--even { display: none; }
+      stroke-width: 0;
+      .use--even {
+        display: none;
+      }
     }
 
     .tweak-icon-weight-light & {
-      stroke-width: 2;
-      .use--odd { display: none; }
+      stroke-width: 0;
+      .use--odd {
+        display: none;
+      }
     }
 
     .tweak-icon-weight-medium & {
-      stroke-width: 3;
-      .use--even { display: none; }
+      stroke-width: 0;
+      .use--even {
+        display: none;
+      }
     }
 
     .tweak-icon-weight-heavy & {
-      stroke-width: 4;
-      .use--odd { display: none; }
+      stroke-width: 0;
+      .use--odd {
+        display: none;
+      }
     }
-
   }
-
 }
-
